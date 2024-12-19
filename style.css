@@ -1,0 +1,100 @@
+
+body{
+    display: flex;
+    flex-direction: column;
+    margin:0%;
+
+}
+
+
+
+.header{
+    display: flex;
+    background-color: #1F2937;
+    align-content: center;
+    justify-content: space-between;
+
+}
+
+
+.left-logo{
+    display: flex;
+    flex-direction: column;
+    color:white;
+    text-align: center;
+    justify-content: center;
+    padding:15px;
+    align-content: center;
+    
+}
+
+
+.right-links{
+    display: flex;
+    justify-content:space-between;
+    align-content: center;
+    gap:12px;
+    list-style: none;
+    text-align: center;
+    padding:10px;
+    
+}
+
+a{
+    color:#E5E7EB;
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-content: center;
+    
+  
+}
+
+.container1{
+    display: flex;
+    background-color: #1F2937;
+    padding: 10px;
+    color: white;
+    
+    font-family: Hero;
+}
+
+.Title{
+    font-size: 30px;
+}
+
+
+
+.container2{
+    display: flex;
+}
+
+.SignUp{
+    background-color: #3882F6;
+    color:aliceblue;
+    border-color: #3882F6;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+
+.Information{
+    color:black;
+    font-weight: bold;
+    align-self: center;
+}
+
+.footer{
+    background-color: #3882F6;
+    text-align: center;
+    color: white;
+    padding:10px;
+}
